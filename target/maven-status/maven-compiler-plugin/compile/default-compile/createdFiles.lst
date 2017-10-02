@@ -1,0 +1,6 @@
+service2/Service2MainClass.class
+service2/model/Model1.class
+service2/service/RabbitCommunicationService$1.class
+service2/controller/Controller1.class
+service2/service/RabbitCommunicationService.class
+service2/service/HttpCommunicationService.class
