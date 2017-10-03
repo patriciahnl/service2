@@ -29,8 +29,14 @@
 
     </dependencies>
 
-    <build>
-      <plugins>
+    <profiles>
+      <profile>
+      <id>local</id>
+      <activation>
+            <activeByDefault>true</activeByDefault>
+      </activation>
+      <build>
+        <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
@@ -58,4 +64,8 @@
 	    </plugin>       
        </plugins>    
        </build>
+     </profile>
+     </profiles>
+     
+     
 </project>
